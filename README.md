@@ -16,8 +16,8 @@ Follow these steps to set up and run the application:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/your_project.git
-cd your_project
+git clone https://github.com/heenassharma/social_networking_assignment.git
+cd social_networking_assignment
 ```
 
 ### 2. Create a Virtual Environment (Optional)
@@ -65,3 +65,9 @@ docker-compose up --build
 
 The application will be accessible at http://localhost:8000/.
 
+### Testing the Application
+
+1. Import the postman collection provided in the file Social App.postman_collection.json 
+2. Start with the Signup and Login API
+3. After login, update the access token in the token variable of the collection to run the rest of the APIs
+4. In the APIs where id/pk is required in the URL, replace the correct id/pk to successfully run the API

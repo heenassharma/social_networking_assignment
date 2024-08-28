@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+venv/
+db.sqlite3
+*.py[cod]
+*$py.class
+*cpython-39.pyc
